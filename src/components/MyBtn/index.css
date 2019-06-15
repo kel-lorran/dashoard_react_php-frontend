@@ -1,0 +1,36 @@
+.my-btn.my-btn-default{
+    font-size: 26px; 
+    border-radius: 7px;
+    white-space: nowrap;
+    -webkit-box-shadow: 0px 2px 12px -3px #00000080;
+    -moz-box-shadow: 0px 2px 12px -3px #00000080;
+    box-shadow: 0px 2px 12px -3px #00000080;
+}
+.my-btn.my-btn-default:active{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+/*referente a tamanho do btn*/
+.my-btn.my-btn-full{
+    width: 230px ;
+    height: 50px ;
+}
+.my-btn.my-btn-half{
+    width: 120px ;
+    height: 55px ;
+}
+.my-btn.my-btn-small{
+    width: 80px ;
+    height: 55px ;
+    font-size: 20px;
+}
+
+/*espaçamento entre icon e text do interior do btn*/
+.my-btn i{
+    margin-right: 10px;
+}
+.my-btn.my-btn.my-btn-small i{
+    margin-right: unset;
+}

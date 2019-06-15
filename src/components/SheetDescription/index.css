@@ -1,0 +1,12 @@
+div.sheet-description{
+    color: var(--color-main-text-gray);
+    display: flex;
+    height: 100%;
+    border: solid 1px #C9BDBB;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+div.sheet-description > div{
+    align-self: center;
+}

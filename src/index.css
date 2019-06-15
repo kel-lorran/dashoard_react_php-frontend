@@ -1,13 +1,53 @@
+:root{
+  --color-principal: #005999;
+  --color-principal-complementar: #0095FF;
+  --color-main-text-gray: #686873;
+  --text-color-title-group: #265A80;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.text-condensed{
+  font-family: Roboto Condensed;
+}
+.flex-center-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.w-100{
+  width: 100%;
+}
+.h-100{
+  height: 100%;
+}
+.mt-30{
+  margin-top: 30px;
+}
+a:focus, button:focus, input:focus, select:focus{
+  /*outline: 1px solid #00599942;*/
+  outline: none;
+}
+
+/*--------------------------------------------------*/
+div.group-btns{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+div.group-btns > button{
+  margin: 10px 0;
+  
+}
+
+

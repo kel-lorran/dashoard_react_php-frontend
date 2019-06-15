@@ -1,0 +1,18 @@
+header.my-header{
+    position: absolute;
+}
+header.my-header > nav{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > div{
+    align-self: center;
+}
+
+div.nav-menu{
+    color: var(--color-principal-complementar);
+    font-size: 30px;
+    margin-right: 20px;
+}

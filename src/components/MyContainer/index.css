@@ -1,0 +1,21 @@
+div.my-container{
+    display: flex;
+    flex-direction: column;
+}
+
+div.my-container > div{
+    margin: 10px 0;
+}
+div.my-container > button{
+    margin: 5px 0;
+}
+
+div.my-container.row{
+    flex-direction: row;
+    width: 85vw;
+    justify-content: space-between;
+    align-items: center;
+}
+div.my-container.row > button{
+    margin: 0 5px;
+}
