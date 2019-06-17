@@ -20,6 +20,9 @@ code {
 .text-condensed{
   font-family: Roboto Condensed;
 }
+.text-white{
+  color: white;
+}
 .flex-center-center{
   display: flex;
   justify-content: center;

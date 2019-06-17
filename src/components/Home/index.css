@@ -26,4 +26,8 @@ nav.nav-lateral{
 }
 main.main-content{
     grid-area: conteudo;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr;
 }

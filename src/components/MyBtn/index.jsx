@@ -46,7 +46,7 @@ class MyBtn extends React.Component{
         let classes = `my-btn my-btn-default my-btn-${size} ${font}`
 
         return(
-            <button className={classes} style={style} onMouseEnter={this.toggleHover.bind(this)} onMouseLeave={this.toggleHover.bind(this)} onClick={this.props.onClick} >
+            <button className={classes} style={style} onMouseEnter={this.toggleHover.bind(this)} onMouseLeave={this.toggleHover.bind(this)} onClick={(e) => this.props.onClick(e,this.props.action)} >
                 {this.props.children}
             </button>
         )

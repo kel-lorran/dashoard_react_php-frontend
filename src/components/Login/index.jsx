@@ -23,15 +23,15 @@ class Login extends React.Component{
                 <MyContainer width="47%">
                 <TitleOfGroup color="var(--text-color-title-group)" contentText="Login/ Cadastro para o Dashboard" />
                 <MyForm>
-                    <InputText id="email" name="email" labelText="Email:" />
-                    <InputText id="pass" name="pass" labelText="Senha:" />
+                    <InputText onChange={this.props.onChange} id="email" name="email" labelText="Email:" />
+                    <InputText onChange={this.props.onChange} id="senha" name="senha" labelText="Senha:" />
                 </MyForm>
                 <MyContainer direction="row">
                     <div className="group-btns w-100">
-                    <MyBtn size="full" myStyle="line" color="var(--text-color-title-group)">
+                    <MyBtn action="REGISTRAR" onClick={this.props.onClick} size="full" myStyle="line" color="var(--text-color-title-group)">
                         <i className="fas fa-address-book"></i>Cadastrar
                     </MyBtn> 
-                    <MyBtn size="full" myStyle="line" color="var(--text-color-title-group)">
+                    <MyBtn action="LOGAR" onClick={this.props.onClick} size="full" myStyle="line" color="var(--text-color-title-group)">
                         <i className="fas fa-sign-in-alt"></i>Logar
                     </MyBtn> 
                     </div>

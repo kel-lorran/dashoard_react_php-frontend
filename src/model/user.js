@@ -1,9 +1,9 @@
 
 class User{
-    constructor(e,p){
-        this.pass = p;
+    constructor(e,p,t){
+        this.senha = p;
         this.email = e;
-        this.token = '';
+        this.token = t;
     }
 
     setToken(t){
