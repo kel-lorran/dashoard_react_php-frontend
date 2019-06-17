@@ -23,6 +23,9 @@ code {
 .text-white{
   color: white;
 }
+a{
+  cursor: pointer;
+}
 .flex-center-center{
   display: flex;
   justify-content: center;

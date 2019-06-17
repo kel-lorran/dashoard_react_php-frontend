@@ -12,6 +12,12 @@ class Home extends React.Component{
         }
     }
 
+    sair = (e) =>{
+        e.preventDefault(e)
+        window.localStorage.setItem('dashCond', '');
+        window.location.reload()
+    }
+
     
 
     render(){
@@ -24,7 +30,11 @@ class Home extends React.Component{
                 </main>
                 <nav className="nav-lateral">
                     <MyContainer width="80%">
-                        <h4 className="text-white">{user.email}</h4>
+                        <div>
+                            <h4 className="text-white">{user.email}</h4>
+                            <h6><a className="text-white" onClick={(e) => this.sair(e)}>SAIR</a></h6>
+                        </div>
+                        
                     </MyContainer>
                 </nav>
             </React.Fragment>
