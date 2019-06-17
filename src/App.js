@@ -32,7 +32,7 @@ class App extends React.Component {
     }
 
     let config = [
-      `http://localhost/backend/login.php?action=${action}`,
+      `http://localhost/dashboard_react_php/backend/login.php?action=${action}`,
       {
         headers: new Headers({
           "Content-Type": "application/json"

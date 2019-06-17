@@ -55,7 +55,7 @@ class MyChart extends React.Component{
         }
 
         let config = [
-            `http://localhost/backend/chart.php?cond=${this.props.codCond}&tipo=${this.props.tipLeitura}&token=${this.props.token}`,
+            `http://localhost/dashboard_react_php/backend/chart.php?cond=${this.props.codCond}&tipo=${this.props.tipLeitura}&token=${this.props.token}`,
             {
                 headers: new Headers({
                     "Content-Type": "application/json"
